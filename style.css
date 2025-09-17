@@ -1,0 +1,38 @@
+.casa {
+    display: table;
+    width: 100%; 
+    border-collapse: collapse;
+}
+.linha {
+    display: table-row;
+    width: auto;
+    clear: both;
+}
+.comodo {
+    float: left;
+    display: table-column;         
+    width: 500px;         
+    height: 200px;         
+    background-color: #ccc;
+    border: 2px solid black;
+    font-size: 18px;
+}
+.comodo p {
+    text-align: center;
+    background:#ccc;
+    color:#000;
+    display:block;
+    float:center;
+    /* border: 1px solid black; */
+    font-size: 22px;
+}
+.on {
+    background:#0f0;
+    color:#000;
+    font-weight: bold;
+}
+.off {
+    background:#f00;
+    color:#000;
+    font-weight: bold;
+}
