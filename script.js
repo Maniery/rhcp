@@ -1,6 +1,7 @@
 // funcao para alterar o status exibido de um dispositivo
 function changeStatus(id, txt) {
     let spanDevice = document.getElementById(id);
+    txt = txt.trim()
     spanDevice.innerText = txt;
     spanDevice.className = '';
     spanDevice.classList.add(txt);
